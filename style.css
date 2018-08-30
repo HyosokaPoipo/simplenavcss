@@ -1,1 +1,50 @@
+nav {
+    background-color: rgba(93, 236, 189, 0.6);
+    position: relative;
+    padding: 10px 0 0 18px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 125px;
+}
+
+nav ul li a:hover {
+    background-color: #399939;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 102, 102, .7);
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 102, 102, .7);
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
 
