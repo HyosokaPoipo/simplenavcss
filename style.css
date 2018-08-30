@@ -1,7 +1,8 @@
 nav {
     background-color: rgba(93, 236, 189, 0.6);
     position: relative;
-    padding: 10px 0 0 18px;
+    padding: 0 0 0 18px;
+    margin-top: 30px;
 }
 
 nav ul {
@@ -45,6 +46,15 @@ nav ul li:hover {
 
 nav ul li:hover > ul {
     display: block;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+nav ul ul li {
+    position: relative;
 }
 
 
